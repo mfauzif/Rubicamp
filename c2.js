@@ -16,6 +16,48 @@ function deretKaskus(n) {
 
 console.log(deretKaskus(10));
 
+// Cara lain
+// function deretKaskus(n) {
+//     let array = []
+//     let length = n * 3
+//     for (let i = 3; i <= length; i += 3) {
+//         if (i % 5 === 0 && i % 6 === 0) {
+//             array.push("KASKUS")
+//         } else if (i % 5 === 0) {
+//             array.push("KAS")
+//         } else if (i % 6 === 0) {
+//             array.push("KUS")
+//         } else {
+//             array.push(i);
+//         }
+//     }
+//     return array
+// }
+
+// console.log(deretKaskus(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // if (15 % 5 === 0) {
 //     console.log("KAS")
 // }

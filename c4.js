@@ -15,9 +15,12 @@ function indexPrime(param1) {
         i++;
     }
 
-    return primes[param1 - 1];
+    return primes[primes.length - 1];
 }
 
 console.log(indexPrime(4)); // Result => 7
 console.log(indexPrime(500)); // Result => 3571
 console.log(indexPrime(37786)); // Result => 450881
+
+// Cara lain
+function 
